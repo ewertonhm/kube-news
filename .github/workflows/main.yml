@@ -48,6 +48,6 @@ jobs:
         with:
           images: ewertonmarschalk/kube-news:${{github.run_number}}
           manifests: |
-            k8s/deployment.yaml
+            ./src/k8s/deployment.yaml
             
           
